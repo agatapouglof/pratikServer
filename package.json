@@ -1,0 +1,20 @@
+{
+  "name": "crawling",
+  "version": "1.0.0",
+  "description": "test of crawling with cheerio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "agatapouglof",
+  "license": "ISC",
+  "dependencies": {
+    "@types/algoliasearch": "^3.24.2",
+    "algoliasearch": "^3.24.5",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "nodemon": "^1.12.1",
+    "request": "^2.81.0"
+  }
+}
